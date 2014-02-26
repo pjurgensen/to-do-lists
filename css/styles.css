@@ -2,11 +2,20 @@
   display: none;
 }
 
-.clickable {
+.clickable-show {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable-show:hover {
+  text-decoration: underline;
+}
+
+.clickable-complete {
+  cursor: pointer;
+  color: red;
+}
+
+.clickable-complete:hover {
   text-decoration: underline;
 }
